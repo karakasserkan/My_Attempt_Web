@@ -38,4 +38,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 =======
 # My_Attempt_Web
 Figma code design
->>>>>>> e610d1fffebff67568d9979d34b4a5e8bf452e5c
+
+https://www.figma.com/design/JNipHS0RayB9GMvfYusSDr/Top-16-Websites-of-2024---Awwwards-(Community)?node-id=0-1&t=2x4tFI3IXRkVR9Vk-1

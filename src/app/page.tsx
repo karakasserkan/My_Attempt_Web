@@ -24,8 +24,8 @@ export default function Home() {
       <TrustMiroSection />
     </div>
     <div className="container mx-auto">
-    <LovedSection />
-    <JoinSection />
+      <LovedSection />
+      <JoinSection />
     </div>
     </>
   );

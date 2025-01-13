@@ -4,251 +4,138 @@ import { TbWorld } from "react-icons/tb";
 
 export const Footer = () => {
   return (
-    <div className="bg-blue-950 mt-32 font-inter">
-      <div className="grid grid-cols-5 mx-10 pt-10 pb-24">
-        {/* Product Section */}
-        <div>
-          <a href="#" className="text-white text-2xl font-extrabold mb-10">
-            Product
-          </a>
-          <div className="text-white text-sm pb-5">
-            <p>
-              Online whiteboard <br />
-            </p>
-            <p>
-              Apps & Integrations <br />
-            </p>
-            <p>
-              Templates <br />
-            </p>
-            <p>
-              Miroverse <br />
-            </p>
-            <p>Miro Developer Platform</p>
-            <p>
-              Miro for Devices <br />
-            </p>
-            <p>Security & Compliance</p>
-            <p>
-              Accessibility <br />
-            </p>
-            <p>Changelog</p>
+    <div className="bg-blue-950 mt-16 md:mt-32 font-inter">
+      {/* Main Footer Grid */}
+      <div className="container mx-auto px-4 py-10 md:py-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8 md:gap-10">
+          {/* Product Section */}
+          <div className="space-y-4">
+            <h3 className="text-white text-xl md:text-2xl font-extrabold">
+              Product
+            </h3>
+            <div className="flex flex-col space-y-3 text-white text-sm">
+              <a href="#" className="hover:text-gray-300 transition-colors">Online whiteboard</a>
+              <a href="#" className="hover:text-gray-300 transition-colors">Apps & Integrations</a>
+              <a href="#" className="hover:text-gray-300 transition-colors">Templates</a>
+              <a href="#" className="hover:text-gray-300 transition-colors">Miroverse</a>
+              <a href="#" className="hover:text-gray-300 transition-colors">Miro Developer Platform</a>
+              <a href="#" className="hover:text-gray-300 transition-colors">Miro for Devices</a>
+              <a href="#" className="hover:text-gray-300 transition-colors">Security & Compliance</a>
+              <a href="#" className="hover:text-gray-300 transition-colors">Accessibility</a>
+              <a href="#" className="hover:text-gray-300 transition-colors">Changelog</a>
+            </div>
+            <a href="#" className="inline-block text-gray-400 text-sm underline hover:text-white transition-colors">
+              View demo →
+            </a>
           </div>
-          <a
-            href="#"
-            className="text-gray-400 text-sm underline hover:text-white"
-          >
-            View demo →
-          </a>
-        </div>
-        {/* Solutions Section */}
-        <div>
-          <a href="#" className="text-white text-2xl font-extrabold mb-10">
-            Solutions
-          </a>
-          <div className="text-white text-sm pb-5">
-            <p>
-              Meetings and Workshops
-              <br />
-            </p>
-            <p>
-              Brainstorming & Ideation <br />
-            </p>
-            <p>
-              Agile Workflows <br />
-            </p>
-            <p>
-              Diagramming <br />
-            </p>
-            <p>Research & Design</p>
-            <p>
-              Strategy & Planning <br />
-            </p>
-            <p>Mind Map</p>
-            <p>
-              Concept Map <br />
-            </p>
-            <p>
-              Online Sticky Notes
-              <br />
-            </p>
-            <p>
-              Flowchart
-              <br />
-            </p>
-            <p>Wireframing</p>
+
+          {/* Solutions Section */}
+          <div className="space-y-4">
+            <h3 className="text-white text-xl md:text-2xl font-extrabold">
+              Solutions
+            </h3>
+            <div className="flex flex-col space-y-3 text-white text-sm">
+              <a href="#" className="hover:text-gray-300 transition-colors">Meetings and Workshops</a>
+              <a href="#" className="hover:text-gray-300 transition-colors">Brainstorming & Ideation</a>
+              <a href="#" className="hover:text-gray-300 transition-colors">Agile Workflows</a>
+              <a href="#" className="hover:text-gray-300 transition-colors">Diagramming</a>
+              <a href="#" className="hover:text-gray-300 transition-colors">Research & Design</a>
+              <a href="#" className="hover:text-gray-300 transition-colors">Strategy & Planning</a>
+              <a href="#" className="hover:text-gray-300 transition-colors">Mind Map</a>
+              <a href="#" className="hover:text-gray-300 transition-colors">Concept Map</a>
+              <a href="#" className="hover:text-gray-300 transition-colors">Online Sticky Notes</a>
+              <a href="#" className="hover:text-gray-300 transition-colors">Flowchart</a>
+              <a href="#" className="hover:text-gray-300 transition-colors">Wireframing</a>
+            </div>
           </div>
-        </div>
-        {/* Resources Section */}
-        <div>
-          <a href="#" className="text-white text-2xl font-extrabold mb-10">
-            Resources
-          </a>
-          <div className="text-white text-sm pb-5">
-            <p>
-              Miro Academy
-              <br />
-            </p>
-            <p>
-              Help Center <br />
-            </p>
-            <p>
-              Blog <br />
-            </p>
-            <p>
-              Status <br />
-            </p>
-            <p>Miro Community</p>
-            <p>
-              Miro Professional Network <br />
-            </p>
-            <p>Miro Experts Directory</p>
-            <p>
-              Miro Events <br />
-            </p>
+
+          {/* Resources Section */}
+          <div className="space-y-4">
+            <h3 className="text-white text-xl md:text-2xl font-extrabold">
+              Resources
+            </h3>
+            <div className="flex flex-col space-y-3 text-white text-sm">
+              <a href="#" className="hover:text-gray-300 transition-colors">Miro Academy</a>
+              <a href="#" className="hover:text-gray-300 transition-colors">Help Center</a>
+              <a href="#" className="hover:text-gray-300 transition-colors">Blog</a>
+              <a href="#" className="hover:text-gray-300 transition-colors">Status</a>
+              <a href="#" className="hover:text-gray-300 transition-colors">Miro Community</a>
+              <a href="#" className="hover:text-gray-300 transition-colors">Miro Professional Network</a>
+              <a href="#" className="hover:text-gray-300 transition-colors">Miro Experts Directory</a>
+              <a href="#" className="hover:text-gray-300 transition-colors">Miro Events</a>
+            </div>
           </div>
-        </div>
-        {/* Company Section */}
-        <div>
-          <a href="#" className="text-white text-2xl font-extrabold mb-10">
-            Company
-          </a>
-          <div className="text-white text-sm pb-5">
-            <p>
-              About us <br />
-            </p>
-            <p>
-              Careers 🚀 <br />
-            </p>
-            <p>
-              Miro in the News <br />
-            </p>
-            <p>
-              Customer Stories <br />
-            </p>
+
+          {/* Company Section */}
+          <div className="space-y-4">
+            <h3 className="text-white text-xl md:text-2xl font-extrabold">
+              Company
+            </h3>
+            <div className="flex flex-col space-y-3 text-white text-sm">
+              <a href="#" className="hover:text-gray-300 transition-colors">About us</a>
+              <a href="#" className="hover:text-gray-300 transition-colors">Careers 🚀</a>
+              <a href="#" className="hover:text-gray-300 transition-colors">Miro in the News</a>
+              <a href="#" className="hover:text-gray-300 transition-colors">Customer Stories</a>
+            </div>
           </div>
-        </div>
-        {/* Plans and Pricing Section */}
-        <div>
-          <a href="#" className="text-white text-2xl font-extrabold mb-10">
-            Plans and Pricing
-          </a>
-          <div className="text-white text-sm pb-5">
-            <p>
-              Pricing
-              <br />
-            </p>
-            <p>
-              Business <br />
-            </p>
-            <p>
-              Enterprise <br />
-            </p>
-            <p>
-              Consultants
-              <br />
-            </p>
-            <p>Education</p>
-            <p>
-              Startups <br />
-            </p>
-            <p>NPOs</p>
+
+          {/* Plans Section */}
+          <div className="space-y-4">
+            <h3 className="text-white text-xl md:text-2xl font-extrabold">
+              Plans and Pricing
+            </h3>
+            <div className="flex flex-col space-y-3 text-white text-sm">
+              <a href="#" className="hover:text-gray-300 transition-colors">Pricing</a>
+              <a href="#" className="hover:text-gray-300 transition-colors">Business</a>
+              <a href="#" className="hover:text-gray-300 transition-colors">Enterprise</a>
+              <a href="#" className="hover:text-gray-300 transition-colors">Consultants</a>
+              <a href="#" className="hover:text-gray-300 transition-colors">Education</a>
+              <a href="#" className="hover:text-gray-300 transition-colors">Startups</a>
+              <a href="#" className="hover:text-gray-300 transition-colors">NPOs</a>
+            </div>
+            <a href="#" className="inline-block text-gray-400 text-sm underline hover:text-white transition-colors">
+              Contact sales
+            </a>
           </div>
-          <a
-            href="#"
-            className="text-gray-400 text-sm underline hover:text-white"
-          >
-            Contact sales 
-          </a>
         </div>
       </div>
-      <hr className="border-gray-700 mx-10" />
-      <div className="pt-12 mx-10 pb-12">
-        <div className="flex justify-between">
-          <div>
-            <ul className="flex gap-7 items-center text-white text-sm">
-              <li>
-                <a href="#">
-                  <Image
-                    src="/images/icon1.png"
-                    alt="logo"
-                    width={20}
-                    height={20}
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <Image
-                    src="/images/icon2.png"
-                    alt="logo"
-                    width={20}
-                    height={20}
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <Image
-                    src="/images/icon3.png"
-                    alt="logo"
-                    width={20}
-                    height={20}
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <Image
-                    src="/images/icon4.png"
-                    alt="logo"
-                    width={20}
-                    height={20}
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <Image
-                    src="/images/icon5.png"
-                    alt="logo"
-                    width={25}
-                    height={25}
-                  />
-                </a>
-              </li>
-              <li>
-                <div className="flex items-center gap-2">
-                  <a
-                    href="#"
-                    className="flex items-center gap-1 text-sm hover:text-white transition"
-                  >
-                    <TbWorld size={20} />
-                    <span>EN</span>
-                  </a>
-                </div>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition">
-                © 2025 Miro
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition">
-                  Terms of Service
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition">
-                  Privacy Policy
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition">
-                  Manage Cookies
-                </a>
-              </li>
-            </ul>
+
+      {/* Bottom Footer */}
+      <hr className="border-gray-700 mx-4 md:mx-10" />
+      
+      <div className="container mx-auto px-4 py-8 md:py-12">
+        <div className="flex flex-col md:flex-row gap-6 md:gap-0 justify-between items-center">
+          {/* Social Icons */}
+          <div className="flex gap-4 md:gap-7 items-center flex-wrap justify-center">
+            <a href="#" className="hover:opacity-80 transition-opacity">
+              <Image src="/images/icon1.png" alt="logo" width={20} height={20} />
+            </a>
+            <a href="#" className="hover:opacity-80 transition-opacity">
+              <Image src="/images/icon2.png" alt="logo" width={20} height={20} />
+            </a>
+            <a href="#" className="hover:opacity-80 transition-opacity">
+              <Image src="/images/icon3.png" alt="logo" width={20} height={20} />
+            </a>
+            <a href="#" className="hover:opacity-80 transition-opacity">
+              <Image src="/images/icon4.png" alt="logo" width={20} height={20} />
+            </a>
+            <a href="#" className="hover:opacity-80 transition-opacity">
+              <Image src="/images/icon5.png" alt="logo" width={25} height={25} />
+            </a>
+            <div className="flex items-center gap-2">
+              <a href="#" className="flex items-center gap-1 text-white text-sm hover:text-gray-300 transition-colors">
+                <TbWorld size={20} />
+                <span>EN</span>
+              </a>
+            </div>
+          </div>
+
+          {/* Links */}
+          <div className="flex flex-wrap gap-4 md:gap-7 justify-center text-sm text-white">
+            <a href="#" className="hover:text-gray-300 transition-colors">© 2025 Miro</a>
+            <a href="#" className="hover:text-gray-300 transition-colors">Terms of Service</a>
+            <a href="#" className="hover:text-gray-300 transition-colors">Privacy Policy</a>
+            <a href="#" className="hover:text-gray-300 transition-colors">Manage Cookies</a>
           </div>
         </div>
       </div>
